@@ -6,8 +6,10 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 
-class MultilanguageViewModel: ViewModel() {
-    private val _language = MutableStateFlow(AppLanguage.ENGLISH)
+class MultilanguageViewModel(
+    initialLanguage: AppLanguage
+): ViewModel() {
+    private val _language = MutableStateFlow(initialLanguage)
     val language: StateFlow<AppLanguage> = _language.asStateFlow()
 
     fun setLanguage(language: AppLanguage) {

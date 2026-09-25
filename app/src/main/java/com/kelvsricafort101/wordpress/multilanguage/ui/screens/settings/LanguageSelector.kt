@@ -73,7 +73,7 @@ fun LanguageSelector(
         DropdownMenu(
             expanded = expanded,
             onDismissRequest = {
-                expanded = !expanded
+                expanded = false
             }
         ) {
             AppLanguage.entries.forEach { item ->
