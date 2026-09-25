@@ -8,6 +8,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.kelvsricafort101.wordpress.multilanguage.ui.screens.home.HomeScreen
 import com.kelvsricafort101.wordpress.multilanguage.viewmodel.MultilanguageViewModel
 
 object AppDestinations {
@@ -17,7 +18,7 @@ object AppDestinations {
 }
 
 @Composable
-fun AppNavGraph(
+fun MultilanguageNavHost(
     navController: NavHostController = rememberNavController()
 ) {
     val viewModel: MultilanguageViewModel = viewModel()
@@ -28,7 +29,15 @@ fun AppNavGraph(
         startDestination = AppDestinations.HOME
     ) {
         composable(AppDestinations.HOME) {
-
+            HomeScreen(
+                language = language,
+                onSettingsClick = {
+                    navController.navigate(AppDestinations.SETTINGS)
+                },
+                onAboutClick = {
+                    navController.navigate(AppDestinations.ABOUT)
+                }
+            )
         }
         composable(AppDestinations.SETTINGS) {
 
