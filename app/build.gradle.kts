@@ -42,7 +42,10 @@ android {
 kotlin {
     compilerOptions {
         freeCompilerArgs.addAll(
-            listOf("-opt-in=androidx.compose.material3.ExperimentalMaterial3Api")
+            listOf(
+                "-opt-in=androidx.compose.material3.ExperimentalMaterial3Api",
+                "-XXLanguage:+PropertyParamAnnotationDefaultTargetMode"
+            )
         )
     }
 }
