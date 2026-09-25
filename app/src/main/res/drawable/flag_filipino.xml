@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="32dp"
+    android:viewportWidth="48"
+    android:viewportHeight="32">
+
+    <!-- Blue field -->
+    <path
+        android:fillColor="#0038A8"
+        android:pathData="M0,0h48v16h-48z" />
+
+    <!-- Red field -->
+    <path
+        android:fillColor="#CE1126"
+        android:pathData="M0,16h48v16h-48z" />
+
+    <!-- White triangle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M0,0L27.71,16L0,32Z" />
+
+    <!-- Sun -->
+    <path
+        android:fillColor="#FCD116"
+        android:pathData="
+            M9.5,11
+            L10.4,13.25
+            L12.5,13.2
+            L11,14.75
+            L11.8,17
+            L9.5,15.7
+            L7.2,17
+            L8,14.75
+            L6.5,13.2
+            L8.6,13.25
+            Z" />
+
+    <!-- Sun center -->
+    <path
+        android:fillColor="#FCD116"
+        android:pathData="
+            M9.5,13
+            A2.5,2.5 0,1 0,9.5 18
+            A2.5,2.5 0,1 0,9.5 13
+            Z" />
+
+    <!-- Sun rays -->
+    <path
+        android:fillColor="#FCD116"
+        android:pathData="
+            M9,8h1v4h-1z
+            M9,18h1v4h-1z
+            M4,15h4v1h-4z
+            M11,15h4v1h-4z
+            M5.2,10.7l0.7,-0.7 2.8,2.8 -0.7,0.7z
+            M10.3,17.2l0.7,-0.7 2.8,2.8 -0.7,0.7z
+            M13.3,10.7l0.7,0.7 -2.8,2.8 -0.7,-0.7z
+            M8.2,17.2l0.7,0.7 -2.8,2.8 -0.7,-0.7z" />
+
+    <!-- Star 1 -->
+    <path
+        android:fillColor="#FCD116"
+        android:pathData="
+            M4.5,5
+            L5.05,6.45
+            L6.6,6.45
+            L5.35,7.35
+            L5.8,8.85
+            L4.5,7.95
+            L3.2,8.85
+            L3.65,7.35
+            L2.4,6.45
+            L3.95,6.45
+            Z" />
+
+    <!-- Star 2 -->
+    <path
+        android:fillColor="#FCD116"
+        android:pathData="
+            M4.5,23
+            L5.05,24.45
+            L6.6,24.45
+            L5.35,25.35
+            L5.8,26.85
+            L4.5,25.95
+            L3.2,26.85
+            L3.65,25.35
+            L2.4,24.45
+            L3.95,24.45
+            Z" />
+
+    <!-- Star 3 -->
+    <path
+        android:fillColor="#FCD116"
+        android:pathData="
+            M22,15
+            L22.55,16.45
+            L24.1,16.45
+            L22.85,17.35
+            L23.3,18.85
+            L22,17.95
+            L20.7,18.85
+            L21.15,17.35
+            L19.9,16.45
+            L21.45,16.45
+            Z" />
+
+</vector>

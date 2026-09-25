@@ -1,6 +1,5 @@
 package com.kelvsricafort101.wordpress.multilanguage.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
@@ -12,25 +11,45 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
+    primary = BluePrimaryLight,
+    onPrimary = DarkTextPrimary,
+    primaryContainer = BluePrimaryDark,
+    onPrimaryContainer = AppSurface,
+    secondary = TealSecondaryLight,
+    onSecondary = DarkTextPrimary,
+    secondaryContainer = TealSecondaryDark,
+    onSecondaryContainer = AppSurface,
+    tertiary = GoldAccent,
+    onTertiary = DarkTextPrimary,
+    background = DarkBackground,
+    onBackground = AppSurface,
+    surface = DarkSurface,
+    onSurface = AppSurface,
+    surfaceVariant = SurfaceVariantDark,
+    onSurfaceVariant = DarkTextSecondary,
+    error = ErrorRedLight,
+    onError = AppSurface
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
-
-    /* Other default colors to override
-    background = Color(0xFFFFFBFE),
-    surface = Color(0xFFFFFBFE),
-    onPrimary = Color.White,
-    onSecondary = Color.White,
-    onTertiary = Color.White,
-    onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
-    */
+    primary = BluePrimary,
+    onPrimary = AppSurface,
+    primaryContainer = BluePrimaryLight,
+    onPrimaryContainer = TextPrimary,
+    secondary = TealSecondary,
+    onSecondary = AppSurface,
+    secondaryContainer = TealSecondaryLight,
+    onSecondaryContainer = TextPrimary,
+    tertiary = GoldAccent,
+    onTertiary = TextPrimary,
+    background = AppBackground,
+    onBackground = TextPrimary,
+    surface = AppSurface,
+    onSurface = TextPrimary,
+    surfaceVariant = SurfaceVariantLight,
+    onSurfaceVariant = TextSecondary,
+    error = ErrorRed,
+    onError = AppSurface
 )
 
 @Composable

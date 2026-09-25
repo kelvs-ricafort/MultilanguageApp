@@ -2,10 +2,37 @@ package com.kelvsricafort101.wordpress.multilanguage.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+// Primary
+val BluePrimary = Color(0xFF1976D2)
+val BluePrimaryDark = Color(0xFF115293)
+val BluePrimaryLight = Color(0xFF63A4FF)
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+// Secondary
+val TealSecondary = Color(0xFF00897B)
+val TealSecondaryDark = Color(0xFF005B4F)
+val TealSecondaryLight = Color(0xFF4EBAAA)
+
+// Accent
+val GoldAccent = Color(0xFFFFB300)
+
+// Light theme
+val AppBackground = Color(0xFFF7F9FC)
+val AppSurface = Color(0xFFFFFFFF)
+
+val TextPrimary = Color(0xFF17202A)
+val TextSecondary = Color(0xFF5F6B7A)
+
+val SurfaceVariantLight = Color(0xFFE1E6ED)
+
+// Dark theme
+val DarkBackground = Color(0xFF101418)
+val DarkSurface = Color(0xFF181C20)
+
+val DarkTextPrimary = Color(0xFF101418)
+val DarkTextSecondary = Color(0xFFB8C1CC)
+
+val SurfaceVariantDark = Color(0xFF42474D)
+
+// Error
+val ErrorRed = Color(0xFFBA1A1A)
+val ErrorRedLight = Color(0xFFFFB4AB)

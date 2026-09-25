@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multilanguage</string>
+    <!-- Navigation -->
+    <string name="home">Tahanan</string>
+    <string name="settings">Mga Setting</string>
+    <string name="about_app">Tungkol sa App</string>
+
+    <!-- Language -->
+    <string name="language">Wika</string>
+    <string name="language_english">Ingles</string>
+    <string name="language_filipino">Filipino</string>
+    <string name="language_spanish">Espanyol</string>
+
+    <!-- Home -->
+    <string name="welcome">Maligayang Pagdating</string>
+    <string name="welcome_message">Maligayang pagdating sa My App</string>
+
+    <!-- Settings -->
+    <string name="settings_description">
+        I-customize ang iyong mga kagustuhan sa app.
+    </string>
+
+    <!-- About -->
+    <string name="about_description">
+        Ang application na ito ay nagpapakita ng multilingual na Jetpack Compose application.
+    </string>
+
+    <string name="version">Bersyon</string>
+    <string name="build">Build</string>
+
+    <!-- Buttons -->
+    <string name="back">Bumalik</string>
+</resources>

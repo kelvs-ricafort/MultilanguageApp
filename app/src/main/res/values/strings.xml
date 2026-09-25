@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">Multilanguage</string>
+
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="about_app">About App</string>
+
+    <!-- Language -->
+    <string name="language">Language</string>
+    <string name="language_english">English</string>
+    <string name="language_filipino">Filipino</string>
+    <string name="language_spanish">Spanish</string>
+
+    <!-- Home -->
+    <string name="welcome">Welcome</string>
+    <string name="welcome_message">Welcome to My App</string>
+
+    <!-- Settings -->
+    <string name="settings_description">Customize your app preferences.</string>
+
+    <!-- About -->
+    <string name="about_description">
+        This application demonstrates a multilingual Jetpack Compose application.
+    </string>
+
+    <string name="version">Version</string>
+    <string name="build">Build</string>
+
+    <!-- Buttons -->
+    <string name="back">Back</string>
+
 </resources>
