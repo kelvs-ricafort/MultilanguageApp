@@ -24,8 +24,8 @@
         This application demonstrates a multilingual Jetpack Compose application.
     </string>
 
-    <string name="version">Version</string>
-    <string name="build">Build</string>
+    <string name="version">Version: %1$s</string>
+    <string name="build">Build: %1$d</string>
 
     <!-- Buttons -->
     <string name="back">Back</string>
